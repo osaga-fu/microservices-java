@@ -42,7 +42,7 @@ public class AccountsServiceImpl implements IAccountsService {
 
     /**
      * @param customer - Customer Object
-     * @return the new account details
+     * @return the new account details.
      */
     private Accounts createNewAccount(Customer customer) {
         Accounts newAccount = new Accounts();
@@ -56,4 +56,5 @@ public class AccountsServiceImpl implements IAccountsService {
         newAccount.setCreatedBy("Anonymous");
         return newAccount;
     }
+
 }
