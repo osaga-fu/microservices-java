@@ -16,9 +16,9 @@ target/
 ### IntelliJ IDEA ###
 .idea
 *.iws
-*.iml
+*.imlgit rm -r --cached .
 *.ipr
-
+/.idea
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
